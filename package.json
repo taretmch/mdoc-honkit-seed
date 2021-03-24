@@ -4,6 +4,10 @@
   "repository": "git@github.com:taretmch/mdoc-honkit-seed.git",
   "author": "taretmch <tomochuri25@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "npx honkit build ./ ./honkit",
+    "start": "npx honkit serve ./ ./honkit"
+  },
   "devDependencies": {
     "honkit": "^3.6.17"
   }

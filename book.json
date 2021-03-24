@@ -1,0 +1,6 @@
+{
+  "root": "./docs/mdoc/",
+  "title": "mdoc と Honkit で Scala ドキュメントを GitHub Pages に公開する",
+  "author": "taretmch",
+  "language": "ja"
+}

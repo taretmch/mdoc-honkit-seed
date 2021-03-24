@@ -7,4 +7,5 @@ target
 /.settings
 .bloop
 docs/mdoc/
+honkit/
 node_modules/
