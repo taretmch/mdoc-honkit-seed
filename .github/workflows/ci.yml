@@ -24,9 +24,9 @@ jobs:
     - name: Install dependencies
       run: yarn --frozen-lockfile
 
-    - name: Mdoc
+    - name: Build Mdoc
       run: sbt docs/mdoc
-    - name: Honkit
+    - name: Build Honkit
       run: yarn build
 
     - name: Push to gh-pages
